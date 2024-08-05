@@ -1,5 +1,6 @@
-#Binning API to render to render range buckets and color using a binning algorithm using size dynamically
 
+Task 1
+#Binning API to render range buckets and color using a binning algorithm for a dynamically given size
 #Install flask dependencies
 > pip3 install -r requirements.txt
 
@@ -29,3 +30,6 @@ curl -X GET 'http://localhost:5000/binning?bin_size=5&min_val=0&max_val=10000'
 {
   "error": "min_val must be less than max_val"
 }
+
+
+System Design For Subscription Model
