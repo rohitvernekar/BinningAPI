@@ -23,9 +23,34 @@ Functional requirements
 Non Functional Requirements
 Extended requirements:
 1. Analytics eq: Statistics on users subscribed to which plans, Number of users using premium plans etc
+2. Notofication Service
 
 
 Database Design 
+Tables 
+1. Users
+2. Subscription
+3. Plans
+4. UserRoles
+5. Roles
+6. Payments
+
+API Design:
+1. User Creation: This API can be used for User registration, Login, getting User information
+    a. api/users/register/ POST : User registration
+    b. api/users/login/  POST: User Login
+    c. api/users/<userid> GET : Get User information
+
+2. Subscriptions
+    a. /api/subscriptions POST : Create Subscription
+    b. /api/subscriptions/1 GET : GET Subscription Information
+    
+
+
+
+
+
+
 
 
 
