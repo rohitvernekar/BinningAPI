@@ -1,0 +1,34 @@
+System Design question 
+Create a subscription model for the product
+      1. Simple user class
+      2. Class to load the user and handle the user data
+
+Why Subscription Model ?
+Subscription model service is used to subscribe users to activate and select between multiple tiers 
+like free, basic and premium with a different billing cycle which can be used to bring revenue to the company which 
+provides this services.
+
+for Example: 
+1. Apple provides cloud storage to its users like free tier or paid subscription.
+
+Requirements
+Functional requirements
+1. Assuming Users are already created Using User Management functionality.
+2. Users should be able to subscribe, Upgrade , downgrade  or cancel a subscription.
+3. Subscription can have multiple tiers like Free tier , basic, premium.
+4. Billing cycles to be monthly or annually.
+5. Roles of Users like Admin, User, Family
+6. Payment processing based on Billing cycle and the subscription plan
+
+Non Functional Requirements
+Extended requirements:
+1. Analytics eq: Statistics on users subscribed to which plans, Number of users using premium plans etc
+
+
+Database Design 
+
+
+
+
+
+
